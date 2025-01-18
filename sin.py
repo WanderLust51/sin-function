@@ -29,10 +29,10 @@ while True:
     num = int((sin(i/10)+1)*40)
 
     #print(cutString(num,'pronto todo acabará '))
-    #print(raimbowText(num,cutString(num,'#')))
+    print(raimbowText(num,cutString(num,'#')))
     #print(rightSide(num, raimbowText(num,cutString(num,'#'))))
 
-    
+
 
     i = i + 1
     time.sleep(0.05)
